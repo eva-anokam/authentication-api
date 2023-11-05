@@ -14,7 +14,8 @@ const PORT = 5001
 const SECRET_KEY = "secretkey"
 
 //connect to MongoDB
-const dbURI = "mongodb://localhost:27017/user-auth"
+const dbURI = "mongodb+srv://serviceUser:ServiceUser1@cluster0.ptduzzq.mongodb.net/?retryWrites=true&w=majority";
+//"mongodb://localhost:27017/user-auth"
 mongoose
     .connect(dbURI, {
     useNewUrlParser: true,
